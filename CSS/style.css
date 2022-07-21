@@ -1,0 +1,82 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #fdfdfd;
+
+
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+header {
+    background-color: #896BA0;
+
+}
+
+
+body {
+    background-color: black;
+}
+
+dl {
+    display: flex;
+}
+
+button {
+    padding: 15px;
+    font-size: 20px;
+    margin: 15px;
+    background-color: black;
+    border: solid black;
+    border-radius: 15px;
+}
+
+.corpo {
+    padding-top: 20px;
+
+}
+
+footer {
+    background-color: #896BA0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+}
+
+.redesocial {
+    width: 35px;
+}
+
+.noticias {
+    padding: 20px;
+    font-size: 15px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 15px;
+    text-align: justify;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    border: dotted wheat;
+}
+
+.noticias a{
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.menu{
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
